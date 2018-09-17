@@ -56,8 +56,8 @@ const totalYears = inventors.reduce((total, inventor) => {
 }, 0);
 
 /*we have to add the 0 at the end because on the 1st loop we don't have a total
-so it's equal2 to Undefined. This messes up the total of the years, but with the
-, 0 (is it the default value? check!)
+so it's equal to Undefined. This messes up the total of the years, so we add
+, 0 as the starting value
 */
 
 // 5. Sort the inventors by years lived
